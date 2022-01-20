@@ -5,6 +5,7 @@ def max_of_three(x,y,z):
     return max
 # print(max_of_three(1,3,7))
 
+from array import array
 import random
 
 # print(random.randint(1,22))
@@ -37,4 +38,3 @@ def Coub_even(n):
 # Square(n)
 # Coub(n)
 # Coub_even(n)
-
