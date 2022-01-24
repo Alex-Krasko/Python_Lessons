@@ -62,19 +62,41 @@ import random
 # Find(data, a)
 
 # В одномерном массиве из 123 чисел найти количество элементов из отрезка [10,99]
-data = [0]*123
-def RndFill():
-    for i in range(len(data)):
-        data[i] = random.randint(-100,300)
-RndFill()
+# data = [0]*123
+# def RndFill():
+#     for i in range(len(data)):
+#         data[i] = random.randint(-100,300)
+# RndFill()
 
-def Find(array):
-    count=0
-    for i in array:
-        if i>=10 and i<=99: count+=1
-    return count
-print('Количество числе в массиве: ', Find(data))
+# def Find(array):
+#     count=0
+#     for i in array:
+#         if i>=10 and i<=99: count+=1
+#     return count
+# print('Количество числе в массиве: ', Find(data))
 
+##########    Второй вариант  ##########
+
+# def CreateRndArray(min, max,lens):
+#     array = [0]*lens
+#     for i in range(len(array)):
+#         array[i] = random.randint(min,max)
+#     return array
+
+# a = CreateRndArray(1,100,123)  
+# print(a) 
+
+# def print_count(array):
+#     count = 0
+#     for i in range(len(array)):
+#         if 10 <= array[i] <= 99:
+#             count = count + 1
+#     return count
+
+# print(print_count(a))
+
+
+# Написать программу замену элементов массива на противоположные
 # data = [0]*10
 # def ArrayFill(array):
 #     for i in range(len(array)):
@@ -89,8 +111,20 @@ print('Количество числе в массиве: ', Find(data))
 # print(ArrayFill(data))
 # print(ArrayInvert(data))
 
+
+# Найти сумму чисел одномерного массива стоящих на нечетной позиции
 # def CreateRndArray(min, max,lens):
 #     array = [0]*lens
 #     for i in range(len(array)):
 #         array[i] = random.randint(min,max)
 #     return array
+
+# def Summ(array):
+#     sum = 0
+#     for i in range(len(array)):
+#         if int(i)%2!=0: sum += array[i]
+#     return sum
+
+# a=CreateRndArray(1,10,10)
+# print(a)
+# print(Summ(a))
