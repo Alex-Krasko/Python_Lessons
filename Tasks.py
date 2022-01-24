@@ -88,3 +88,9 @@ import random
 
 # print(ArrayFill(data))
 # print(ArrayInvert(data))
+
+# def CreateRndArray(min, max,lens):
+#     array = [0]*lens
+#     for i in range(len(array)):
+#         array[i] = random.randint(min,max)
+#     return array
