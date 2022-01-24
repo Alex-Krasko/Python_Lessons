@@ -1,5 +1,4 @@
 from array import *
-from pickle import FALSE
 import random
 
 # Задать массив из 8 элементов и вывести их на экран
@@ -75,3 +74,17 @@ import random
 #         if i>=10 and i<=99: b+=1
 #     return b
 # print('Количество числе в массиве: ', Find(data))
+
+# data = [0]*10
+# def ArrayFill(array):
+#     for i in range(len(array)):
+#         data[i] = random.randint(-100,100)
+#     return array
+
+# def ArrayInvert(array):
+#     for i in range(len(array)):
+#         array[i] = -array[i]
+#     return array
+
+# print(ArrayFill(data))
+# print(ArrayInvert(data))
