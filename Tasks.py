@@ -62,18 +62,18 @@ import random
 # Find(data, a)
 
 # В одномерном массиве из 123 чисел найти количество элементов из отрезка [10,99]
-# data = [0]*123
-# def RndFill():
-#     for i in range(len(data)):
-#         data[i] = random.randint(-100,300)
-# RndFill()
+data = [0]*123
+def RndFill():
+    for i in range(len(data)):
+        data[i] = random.randint(-100,300)
+RndFill()
 
-# def Find(array):
-#     b=0
-#     for i in array:
-#         if i>=10 and i<=99: b+=1
-#     return b
-# print('Количество числе в массиве: ', Find(data))
+def Find(array):
+    count=0
+    for i in array:
+        if i>=10 and i<=99: count+=1
+    return count
+print('Количество числе в массиве: ', Find(data))
 
 # data = [0]*10
 # def ArrayFill(array):
