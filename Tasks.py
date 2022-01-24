@@ -78,7 +78,7 @@ import random
 # data = [0]*10
 # def ArrayFill(array):
 #     for i in range(len(array)):
-#         data[i] = random.randint(-100,100)
+#         array[i] = random.randint(-100,100)
 #     return array
 
 # def ArrayInvert(array):
