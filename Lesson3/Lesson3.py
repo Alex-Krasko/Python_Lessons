@@ -1,4 +1,4 @@
-# colors = ['red', 'green', 'blue123']
+# colors = ['red', 'green', 'blue123'] # Множества (set())
 # data = open('file.txt', 'w')  # Работа с файлами
 # data.writelines(colors)
 # data.write('\nline 1\n')
